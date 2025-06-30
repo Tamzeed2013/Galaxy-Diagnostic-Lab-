@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galaxy Diagnostic Lab</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 10px 0 0;
+      font-size: 1.2em;
+    }
+    nav {
+      background-color: #34495e;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .container {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    h2 {
+      color: #2c3e50;
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+    p {
+      line-height: 1.6;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      background-color: white;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    th, td {
+      padding: 12px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+    th {
+      background-color: #2980b9;
+      color: white;
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 40px;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      margin-top: 20px;
+    }
+    .cta {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .cta a {
+      display: inline-block;
+      background-color: #27ae60;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    .cta a:hover {
+      background-color: #219150;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Galaxy Diagnostic Lab</h1>
+  <p>Precision Testing, Trusted Results</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Tests</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container" id="about">
+  <h2>About Galaxy Diagnostic Lab</h2>
+  <p>Galaxy Diagnostic Lab is a modern and affordable laboratory located in Maharajganj. Our mission is to provide reliable, fast, and accessible diagnostic services for individuals and healthcare providers. We offer a wide range of tests supported by state-of-the-art equipment and experienced technicians.</p>
+</div>
+
+<div class="container" id="services">
+  <h2>Our Tests & Prices</h2>
+  <table>
+    <thead>
+      <tr><th>Test Name</th><th>Price (INR)</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Complete Blood Count (CBC)</td><td>200</td></tr>
+      <tr><td>Blood Sugar (Fasting/PP)</td><td>100</td></tr>
+      <tr><td>Thyroid Profile (T3, T4, TSH)</td><td>400</td></tr>
+      <tr><td>Liver Function Test (LFT)</td><td>600</td></tr>
+      <tr><td>Kidney Function Test (KFT)</td><td>550</td></tr>
+      <tr><td>Allergy Profile</td><td>1200</td></tr>
+      <tr><td>Lipid Profile</td><td>500</td></tr>
+      <tr><td>Urine Routine Test</td><td>100</td></tr>
+      <tr><td>Pregnancy Test</td><td>80</td></tr>
+    </tbody>
+  </table>
+  <div class="cta">
+    <p>Book your test easily on WhatsApp.</p>
+    <a href="https://wa.me/9506632012" target="_blank">Book on WhatsApp</a>
+  </div>
+</div>
+
+<div class="container" id="contact">
+  <h2>Contact Information</h2>
+  <p><strong>Address:</strong> Opp. Raksha Sweets, Tedhawa Kuti, Maharajganj, 273303</p>
+  <p><strong>Phone:</strong> 9506632012 / 7266077778</p>
+  <p><strong>Email:</strong> galaxydiagnosticlab@gmail.com</p>
+  <p><strong>Hours:</strong> Monday to Saturday: 7:00 AM - 8:00 PM</p>
+  <h3>Find Us on Map</h3>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.871830380168!2d83.55956457538902!3d26.754909676735983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39941c5e2f8e4b81%3A0xe3e8938e77e9e8d3!2sMaharajganj%2C%20Uttar%20Pradesh%20273303!5e0!3m2!1sen!2sin!4v1719801521930!5m2!1sen!2sin"></iframe>
+</div>
+
+<footer>
+  <p>&copy; 2025 Galaxy Diagnostic Lab. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
